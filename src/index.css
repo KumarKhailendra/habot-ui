@@ -20,7 +20,7 @@ html {
   --color-shaded-blue: #123557;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   html {
     font-size: 48.5%;
   }

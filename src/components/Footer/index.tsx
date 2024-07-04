@@ -7,8 +7,8 @@ import Logo from "../../assets/LOGO_white.png";
 function Footer() {
   return (
     <div className="footer  bg-custom-shaded-blue px-10  sm:px-60 py-16 mt-20">
-      <div className="flex flex-col sm:flex-row justify-between sm:items-start sm:items-center border-y-2 border-white border-opacity-20 py-12">
-        <div className="left flex flex justify-evenly flex-row flex-wrap sm:flex-row">
+      <div className="flex flex-col lg:flex-row justify-between  sm:items-center border-y-2 border-white border-opacity-20 py-12">
+        <div className="left flex  justify-evenly flex-row flex-wrap sm:flex-row">
           <div className="logo order-4 sm:order-1 w-full sm:w-auto flex justify-unset sm:justify-unset sm:block sm:ml-10 mt-10">
             <img className="cursor-pointer" src={Logo} alt="logo" />
             <p className="font-extralight text-white text-2xl mt-10 ml-4">
